@@ -35,5 +35,9 @@ class ViewController: UICollectionViewController, UICollectionViewDelegateFlowLa
     }
     
  
+    // Search
+    func updateSearchResults(for searchController : UISearchController) {
+        guard let text = searchController.searchBar.text else { return }
+    }
 }
 
