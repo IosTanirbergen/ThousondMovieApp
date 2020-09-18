@@ -53,6 +53,7 @@ class MovieSeviceAPI {
     }
     let queryItems = [URLQueryItem(name: "api_key", value: apiKey)]
     urlComponents.queryItems = queryItems
+        
     guard let url = urlComponents.url else {
         completion(.failure(.invalidEndpoint))
         return
