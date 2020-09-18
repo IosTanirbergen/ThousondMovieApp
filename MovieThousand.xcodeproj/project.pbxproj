@@ -18,6 +18,7 @@
 		C49B3E8D2514CD9100B3B93B /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49B3E8C2514CD9100B3B93B /* MovieViewModel.swift */; };
 		C49B3E902514D0F600B3B93B /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49B3E8F2514D0F600B3B93B /* HttpMethod.swift */; };
 		C49B3E922514D24600B3B93B /* MovieAPi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49B3E912514D24600B3B93B /* MovieAPi.swift */; };
+		C49B3E942514D41200B3B93B /* MovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49B3E932514D41200B3B93B /* MovieResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		C49B3E8C2514CD9100B3B93B /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
 		C49B3E8F2514D0F600B3B93B /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
 		C49B3E912514D24600B3B93B /* MovieAPi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAPi.swift; sourceTree = "<group>"; };
+		C49B3E932514D41200B3B93B /* MovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				C49B3E8A2514CCBC00B3B93B /* Movie.swift */,
+				C49B3E932514D41200B3B93B /* MovieResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				C49B3E922514D24600B3B93B /* MovieAPi.swift in Sources */,
 				C49B3E902514D0F600B3B93B /* HttpMethod.swift in Sources */,
 				C49B3E702514C84300B3B93B /* SceneDelegate.swift in Sources */,
+				C49B3E942514D41200B3B93B /* MovieResponse.swift in Sources */,
 				C49B3E8B2514CCBC00B3B93B /* Movie.swift in Sources */,
 				C49B3E8D2514CD9100B3B93B /* MovieViewModel.swift in Sources */,
 			);
