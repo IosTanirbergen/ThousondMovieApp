@@ -17,8 +17,8 @@ class MovieViewModel {
             getMovies(endpoint: .nowPlaying)
         }
 
-        func getMovies(endpoint: MovieAPI.Endpoint) {
-            MovieServiceAPI.shared.fetchMovies(from: endpoint) { (result: Result<MoviesResponse, MovieAPI.APIServiceError>) in
+        func getMovies(endpoint: MovieServiceAPI.Endpoint) {
+            MovieServiceAPI.shared.fetchMovies(from: endpoint) { (result: Result<MoviesResponse, MovieServiceAPI.APIServiceError>) in
                 switch result {
                 case .success(let movieResponse):
                     self.movies = movieResponse.results
@@ -34,7 +34,7 @@ class MovieViewModel {
         }
 
         func getSearch(with query: String) {
-            MovieServiceAPI.shared.searchMovies(from: .search, query: query) { (result: Result<MoviesResponse, MovieAPI.APIServiceError>) in
+            MovieServiceAPI.shared.searchMovies(from: .search, query: query) { (result: Result<MoviesResponse, MovieServiceAPI.APIServiceError>) in
                 switch result {
                 case .success(let movieResponse):
                     self.movies = movieResponse.results
