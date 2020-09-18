@@ -16,6 +16,7 @@
 		C49B3E7D2514C84600B3B93B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49B3E7B2514C84600B3B93B /* LaunchScreen.storyboard */; };
 		C49B3E8B2514CCBC00B3B93B /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49B3E8A2514CCBC00B3B93B /* Movie.swift */; };
 		C49B3E8D2514CD9100B3B93B /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49B3E8C2514CD9100B3B93B /* MovieViewModel.swift */; };
+		C49B3E902514D0F600B3B93B /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49B3E8F2514D0F600B3B93B /* HttpMethod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		C49B3E7E2514C84600B3B93B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C49B3E8A2514CCBC00B3B93B /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		C49B3E8C2514CD9100B3B93B /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
+		C49B3E8F2514D0F600B3B93B /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		C49B3E872514C90500B3B93B /* ConfigAPI */ = {
 			isa = PBXGroup;
 			children = (
+				C49B3E8F2514D0F600B3B93B /* HttpMethod.swift */,
 			);
 			path = ConfigAPI;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				C49B3E782514C84300B3B93B /* MovieThousand.xcdatamodeld in Sources */,
 				C49B3E722514C84300B3B93B /* MovieViewController.swift in Sources */,
 				C49B3E6E2514C84300B3B93B /* AppDelegate.swift in Sources */,
+				C49B3E902514D0F600B3B93B /* HttpMethod.swift in Sources */,
 				C49B3E702514C84300B3B93B /* SceneDelegate.swift in Sources */,
 				C49B3E8B2514CCBC00B3B93B /* Movie.swift in Sources */,
 				C49B3E8D2514CD9100B3B93B /* MovieViewModel.swift in Sources */,
