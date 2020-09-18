@@ -8,6 +8,7 @@
 
 import Foundation
 
+
 struct Http {
     enum Method: String {
         case get
@@ -16,6 +17,7 @@ struct Http {
         case patch
         case delete
     }
+
     enum StatusCode: Int {
         case none = 0
         case succeeded = 200
@@ -27,23 +29,26 @@ struct Http {
         case notFound = 404
         case timedOut = 408
         case serverError = 500
-    }
-    
-    static func get(value: Int) -> StatusCode {
-        if let type = StatusCode(rawValue: value) {
-        return type
+
+
+        static func get(value: Int) -> StatusCode {
+
+            if let type = StatusCode(rawValue: value) {
+                return type
+            }
+
+            return getGeneric(value: value)
         }
-        
-         return getGeneric(value: value)
-    }
-    static func getGeneric(value : Int) -> StatusCode {
-        
-          switch value {
+
+        static func getGeneric(value: Int) -> StatusCode {
+
+            switch value {
             case 200..<300: return .succeeded
             case 300..<400: return .redirection
             case 400..<500: return .badRequest
             case 500..<600: return .serverError
             default: return .none
-                 }
+            }
+        }
     }
 }
