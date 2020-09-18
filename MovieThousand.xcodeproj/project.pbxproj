@@ -23,8 +23,8 @@
 		C49B3E9B2514DB2D00B3B93B /* ResubleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49B3E9A2514DB2D00B3B93B /* ResubleCell.swift */; };
 		C49B3E9E2514DBA900B3B93B /* ChoiseSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49B3E9D2514DBA900B3B93B /* ChoiseSystem.swift */; };
 		C49B3EB62514E7DA00B3B93B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49B3EB52514E7DA00B3B93B /* DetailViewController.swift */; };
-		C49B3EB82514E82100B3B93B /* DetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49B3EB72514E82100B3B93B /* DetailHeaderView.swift */; };
 		C49B3EBA2514E82700B3B93B /* DetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49B3EB92514E82700B3B93B /* DetailHeaderView.swift */; };
+		C49B3EBE2514E86500B3B93B /* DetailTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49B3EBD2514E86500B3B93B /* DetailTitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,8 +46,8 @@
 		C49B3E9A2514DB2D00B3B93B /* ResubleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResubleCell.swift; sourceTree = "<group>"; };
 		C49B3E9D2514DBA900B3B93B /* ChoiseSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiseSystem.swift; sourceTree = "<group>"; };
 		C49B3EB52514E7DA00B3B93B /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = "../../../../moviesApp-master 2/MoviesApp/Detail/DetailViewController.swift"; sourceTree = "<group>"; };
-		C49B3EB72514E82100B3B93B /* DetailHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailHeaderView.swift; path = "../../../../../../moviesApp-master 2/MoviesApp/Detail/Detail Views/DetailHeaderView.swift"; sourceTree = "<group>"; };
 		C49B3EB92514E82700B3B93B /* DetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeaderView.swift; sourceTree = "<group>"; };
+		C49B3EBD2514E86500B3B93B /* DetailTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				C49B3E9C2514DB8E00B3B93B /* ChoiseSystem */,
+				C49B3EBD2514E86500B3B93B /* DetailTitleView.swift */,
 				C49B3EB92514E82700B3B93B /* DetailHeaderView.swift */,
 				C49B3E982514DAFC00B3B93B /* MovieCell.swift */,
 				C49B3E9A2514DB2D00B3B93B /* ResubleCell.swift */,
@@ -169,7 +170,6 @@
 		C49B3E9C2514DB8E00B3B93B /* ChoiseSystem */ = {
 			isa = PBXGroup;
 			children = (
-				C49B3EB72514E82100B3B93B /* DetailHeaderView.swift */,
 				C49B3E9D2514DBA900B3B93B /* ChoiseSystem.swift */,
 			);
 			path = ChoiseSystem;
@@ -246,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C49B3EBE2514E86500B3B93B /* DetailTitleView.swift in Sources */,
 				C49B3EB62514E7DA00B3B93B /* DetailViewController.swift in Sources */,
 				C49B3E782514C84300B3B93B /* MovieThousand.xcdatamodeld in Sources */,
 				C49B3E722514C84300B3B93B /* MovieViewController.swift in Sources */,
@@ -258,7 +259,6 @@
 				C49B3E942514D41200B3B93B /* MovieResponse.swift in Sources */,
 				C49B3E8B2514CCBC00B3B93B /* Movie.swift in Sources */,
 				C49B3E992514DAFC00B3B93B /* MovieCell.swift in Sources */,
-				C49B3EB82514E82100B3B93B /* DetailHeaderView.swift in Sources */,
 				C49B3E8D2514CD9100B3B93B /* MovieViewModel.swift in Sources */,
 				C49B3EBA2514E82700B3B93B /* DetailHeaderView.swift in Sources */,
 			);
