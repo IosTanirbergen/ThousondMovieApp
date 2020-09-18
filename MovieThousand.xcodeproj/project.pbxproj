@@ -14,6 +14,7 @@
 		C49B3E782514C84300B3B93B /* MovieThousand.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C49B3E762514C84300B3B93B /* MovieThousand.xcdatamodeld */; };
 		C49B3E7A2514C84600B3B93B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C49B3E792514C84600B3B93B /* Assets.xcassets */; };
 		C49B3E7D2514C84600B3B93B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49B3E7B2514C84600B3B93B /* LaunchScreen.storyboard */; };
+		C49B3E8B2514CCBC00B3B93B /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49B3E8A2514CCBC00B3B93B /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C49B3E792514C84600B3B93B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C49B3E7C2514C84600B3B93B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C49B3E7E2514C84600B3B93B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C49B3E8A2514CCBC00B3B93B /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		C49B3E862514C8FD00B3B93B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C49B3E8A2514CCBC00B3B93B /* Movie.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				C49B3E722514C84300B3B93B /* ViewController.swift in Sources */,
 				C49B3E6E2514C84300B3B93B /* AppDelegate.swift in Sources */,
 				C49B3E702514C84300B3B93B /* SceneDelegate.swift in Sources */,
+				C49B3E8B2514CCBC00B3B93B /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
