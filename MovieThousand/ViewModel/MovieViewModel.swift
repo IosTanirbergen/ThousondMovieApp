@@ -13,8 +13,13 @@ class MovieViewModel {
     var movies = [Movie]()
     
     init() {
-        
+        getMovies(endpoint: .nowPlaying)
     }
+    //
+
+
+    
+    
     // api
     func getMovies(endpoint : String?) {
         
