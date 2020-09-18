@@ -31,4 +31,31 @@ class MovieSeviceAPI {
         case noData
         case decodeError
     }
+    
+    enum Endpoint: String, CaseIterable {
+        case nowPlaying = "now_playing"
+        case upcoming
+        case popular
+        case topRated = "top_rated"
+        case search
+    }
+    
+      public func fetchMovies(from endpoint: Endpoint, result: @escaping (Result<MoviesResponse, APIServiceError>) -> Void) {
+          let movieURL = baseURL
+              .appendingPathComponent("movie")
+              .appendingPathComponent(endpoint.rawValue)
+          fetchResources(url: movieURL, completion: result)
+      }
+    private func fetchResources<T: Decodable>(url: URL, completion: @escaping (Result<T, APIServiceError>) -> Void) {
+    guard var urlComponents = URLComponents(url: url, resolvingAgainstBaseURL: true) else {
+        completion(.failure(.invalidEndpoint))
+        return
+    }
+    let queryItems = [URLQueryItem(name: "api_key", value: apiKey)]
+    urlComponents.queryItems = queryItems
+    guard let url = urlComponents.url else {
+        completion(.failure(.invalidEndpoint))
+        return
+    }
+    }
 }
