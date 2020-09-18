@@ -27,6 +27,7 @@
 		C49B3EBE2514E86500B3B93B /* DetailTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49B3EBD2514E86500B3B93B /* DetailTitleView.swift */; };
 		C49B3EC02514E89400B3B93B /* DetailFavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49B3EBF2514E89400B3B93B /* DetailFavoriteView.swift */; };
 		C49B3EC22514E8BE00B3B93B /* DetailYearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49B3EC12514E8BE00B3B93B /* DetailYearView.swift */; };
+		C49B3EC62514E8E700B3B93B /* DetailRatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49B3EC52514E8E700B3B93B /* DetailRatingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		C49B3EBD2514E86500B3B93B /* DetailTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTitleView.swift; sourceTree = "<group>"; };
 		C49B3EBF2514E89400B3B93B /* DetailFavoriteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailFavoriteView.swift; path = "../../../../../moviesApp-master 2/MoviesApp/Detail/Detail Views/DetailFavoriteView.swift"; sourceTree = "<group>"; };
 		C49B3EC12514E8BE00B3B93B /* DetailYearView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailYearView.swift; path = "../../../../../moviesApp-master 2/MoviesApp/Detail/Detail Views/DetailYearView.swift"; sourceTree = "<group>"; };
+		C49B3EC52514E8E700B3B93B /* DetailRatingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRatingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 				C49B3E982514DAFC00B3B93B /* MovieCell.swift */,
 				C49B3E9A2514DB2D00B3B93B /* ResubleCell.swift */,
 				C49B3EBF2514E89400B3B93B /* DetailFavoriteView.swift */,
+				C49B3EC52514E8E700B3B93B /* DetailRatingsView.swift */,
 				C49B3EC12514E8BE00B3B93B /* DetailYearView.swift */,
 			);
 			path = "Cell + View";
@@ -261,6 +264,7 @@
 				C49B3E922514D24600B3B93B /* MovieAPi.swift in Sources */,
 				C49B3E902514D0F600B3B93B /* HttpMethod.swift in Sources */,
 				C49B3E9E2514DBA900B3B93B /* ChoiseSystem.swift in Sources */,
+				C49B3EC62514E8E700B3B93B /* DetailRatingsView.swift in Sources */,
 				C49B3E702514C84300B3B93B /* SceneDelegate.swift in Sources */,
 				C49B3E9B2514DB2D00B3B93B /* ResubleCell.swift in Sources */,
 				C49B3E942514D41200B3B93B /* MovieResponse.swift in Sources */,
