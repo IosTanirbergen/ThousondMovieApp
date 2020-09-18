@@ -10,7 +10,7 @@ import UIKit
 
 import UIKit
 
-class DiscoverCollectionViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout, UISearchResultsUpdating {
+class MovieViewControlelr : UICollectionViewController, UICollectionViewDelegateFlowLayout, UISearchResultsUpdating {
 
     private let vm = MovieViewModel()
 
@@ -53,10 +53,6 @@ class DiscoverCollectionViewController: UICollectionViewController, UICollection
         return cell
     }
     
-//
-//    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-//        self.present(DetailViewController(movie: vm.getMovie(at: indexPath)), animated: false, completion: nil)
-//    }
 
     @objc func refreshTable() {
         DispatchQueue.main.async {
@@ -101,7 +97,7 @@ class DiscoverCollectionViewController: UICollectionViewController, UICollection
 }
 
 private extension Selector {
-    static let refreshTable = #selector(DiscoverCollectionViewController.refreshTable)
+    static let refreshTable = #selector(MovieViewControlelr.refreshTable)
 }
 
 extension NSNotification.Name {
